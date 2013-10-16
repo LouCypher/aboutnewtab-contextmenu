@@ -1,0 +1,13 @@
+content   kojiyuu                           chrome/content/
+skin      kojiyuu         classic/1.0       chrome/skin/classic/
+locale    kojiyuu         en-US             chrome/locale/en-US/
+locale    kojiyuu         id                chrome/locale/id/
+content   newtabcontext                     chrome/content/
+skin      newtabcontext   classic/1.0       chrome/skin/classic/
+locale    newtabcontext   en-US             chrome/locale/en-US/
+locale    newtabcontext   id                chrome/locale/id/
+style     about:addons                      chrome://newtabcontext/skin/
+override  chrome://newtabcontext/locale/    chrome://newtabcontext/locale/newtabcontext.properties
+override  chrome://kojiyuu/content/         chrome://newtabcontext/content/settings.xul
+override  chrome://kojiyuu/skin/            chrome://newtabcontext/skin/
+override  chrome://kojiyuu/locale/          chrome://newtabcontext/locale/

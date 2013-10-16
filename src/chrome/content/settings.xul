@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="../skin/"?>
+<!--<!DOCTYPE vbox SYSTEM "chrome://kojiyuu/locale/">-->
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="Kojiyuu"
+      xmlns:html="http://www.w3.org/1999/xhtml" id="kojiyuu">
+
+  <setting pref="extensions.aboutnewtab-contextmenu.kojiyuu"
+           type="bool"
+           title="Kojiyuu"/>
+
+  <html:head>
+    <html:link rel="shortcut icon" href="data/ai"/>
+  </html:head>
+  <spacer flex="1"/>
+  <hbox>
+    <spacer flex="1"/>
+    <image src="data/kojiyuu" width="400" height="533"/>
+    <spacer flex="1"/>
+  </hbox>
+  <spacer flex="1"/>
+</vbox>
