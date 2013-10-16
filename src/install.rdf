@@ -9,7 +9,7 @@
     <em:version>0.1</em:version>
     <em:description>Add new context menu on about:newtab page to modify link title and URL.</em:description>
     <em:creator>LouCypher</em:creator>
-    <em:homepageURL>http://loucypher.github.io/</em:homepageURL>
+    <em:homepageURL>https://github.com/LouCypher/aboutnewtab-contextmenu</em:homepageURL>
     <em:localized>
       <Description>
         <em:locale>id</em:locale>
@@ -17,7 +17,7 @@
         <em:version>0.1</em:version>
         <em:description>Menambahkan menu konteks pada laman about:newtab untuk mengubah nama dan URL tautan.</em:description>
         <em:creator>LouCypher</em:creator>
-        <em:homepageURL>https://addons.mozilla.org/user/LouCypher/</em:homepageURL>
+        <em:homepageURL>https://github.com/LouCypher/aboutnewtab-contextmenu</em:homepageURL>
       </Description>
     </em:localized>
     <em:localized>
@@ -27,7 +27,7 @@
         <em:version>0.1</em:version>
         <em:description>Add new context menu on about:newtab page to modify link title and URL.</em:description>
         <em:creator>LouCypher</em:creator>
-        <em:homepageURL>http://loucypher.github.io/</em:homepageURL>
+        <em:homepageURL>https://github.com/LouCypher/aboutnewtab-contextmenu</em:homepageURL>
       </Description>
     </em:localized>
     <em:targetApplication>
