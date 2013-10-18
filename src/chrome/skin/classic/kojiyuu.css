@@ -1,0 +1,11 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@-moz-document url("about:addons") {
+  #detail-screenshot[src*="/thumbs/115/115564"] {
+    width: 0;
+    padding-right: 200px;
+    background-image: url("chrome://kojiyuu/content/data/kojiyuu");
+    background-repeat: no-repeat;
+    background-size: 200px 267px;
+    background-position: 0 50%;
+  }
+}

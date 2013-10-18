@@ -279,6 +279,12 @@ function addContextMenu(window) {
  * Handle the add-on being activated on install/enable
  */
 function startup(data, reason) {
+  let uri = Services.io.newURI("chrome://kojiyuu/skin/kojiyuu.css", null, null);
+  let SSS = Cc["@mozilla.org/content/style-sheet-service;1"].
+            getService(Ci.nsIStyleSheetService);
+  if (!SSS.sheetRegistered(uri, SSS.USER_SHEET))
+    SSS.loadAndRegisterSheet(uri, SSS.USER_SHEET);
+
   watchWindows(addContextMenu);
 }
 

@@ -30,7 +30,7 @@
         <em:homepageURL>https://github.com/LouCypher/aboutnewtab-contextmenu</em:homepageURL>
       </Description>
     </em:localized>
-    <em:optionsURL>chrome://newtabcontext/content/settings.xul</em:optionsURL>
+    <em:optionsURL>chrome://kojiyuu/content/settings.xul</em:optionsURL>
     <em:optionsType>2</em:optionsType>
     <em:targetApplication>
       <Description><!--Firefox-->

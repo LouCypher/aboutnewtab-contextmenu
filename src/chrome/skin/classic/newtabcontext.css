@@ -1,10 +1,2 @@
 #kojiyuu { background: pink }
 #kojiyuu image { box-shadow: 6px 6px 9px rgba(0, 0, 0, .5) }
-.kojiyuu #detail-screenshot[src*="/thumbs/115/115564"] {
-  width: 0;
-  padding-right: 200px;
-  background-image: url("chrome://kojiyuu/content/data/kojiyuu");
-  background-repeat: no-repeat;
-  background-size: 200px 267px;
-  background-position: 0 50%;
-}

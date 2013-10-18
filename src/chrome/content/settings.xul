@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="../skin/"?>
+<?xml-stylesheet type="text/css" href="../skin/newtabcontext.css"?>
 <!--<!DOCTYPE vbox SYSTEM "chrome://kojiyuu/locale/">-->
 <vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="Kojiyuu"
       xmlns:html="http://www.w3.org/1999/xhtml" id="kojiyuu">
