@@ -174,13 +174,14 @@ function addContextMenu(window) {
  * Handle the add-on being activated on install/enable
  */
 function startup(data, reason) {
+  // Add resource alias
   resourceName = data.id.toLowerCase().match(/[^\@]+/).toString().replace(/[^\w]/g, "");
   //log(resourceName);
-
-  // Add `resource:` alias
   resProtocolHandler(resourceName, data.resourceURI);
 
+  // Load module
   Cu.import("resource://" + resourceName + "/watchwindows.jsm");
+
   watchWindows(addContextMenu);
 }
 
@@ -193,7 +194,12 @@ function shutdown(data, reason) {
     return;
 
   unload();
-  resProtocolHandler(resourceName, null); // Remove `resource:` alias
+
+  // Unload module
+  Cu.unload("resource://" + resourceName + "/watchwindows.jsm");
+  
+  // Remove resource
+  resProtocolHandler(resourceName, null);
 }
 
 /**
