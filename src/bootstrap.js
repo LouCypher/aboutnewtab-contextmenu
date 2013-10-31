@@ -111,7 +111,7 @@ function addContextMenu(window) {
   }
 
   function initContextMenu(aEvent) {
-    let show = window.gContextMenu.target.ownerDocument.URL = "about:newtab" &&
+    let show = window.gContextMenu.target.ownerDocument.URL == "about:newtab" &&
                (window.gContextMenu.onLink &&
                 window.gContextMenu.link.classList.contains("newtab-link"));
 
